@@ -141,7 +141,7 @@
                 { "trigger": "%RegKeyDelete /ifempty", "contents": "DeleteRegKey /ifempty ${1:root_key} \"${2:subkey}\"" },
                 { "trigger": "%RegKeyDelete", "contents": "DeleteRegKey ${1:root_key} \"${2:subkey}\"" },
                 { "trigger": "%RegKeyEnum", "contents": "EnumRegKey \\$${1:user_var} ${2:root_key} \"${3:subkey}\" ${4:index}" },
-                { "trigger": "%RegStrRead", "contents": "ReadRegStr \\${1:user_var} ${2:root_key} \"${3:sub_key}\" \"${4:name}\"" },
+                { "trigger": "%RegStrRead", "contents": "ReadRegStr \\$${1:user_var} ${2:root_key} \"${3:sub_key}\" \"${4:name}\"" },
                 { "trigger": "%RegStrWrite", "contents": "WriteRegStr ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
                 { "trigger": "%RegValueDelete", "contents": "DeleteRegValue ${1:root_key} \"${2:subkey}\" \"${3:key_name}\"" },
                 { "trigger": "%RegValueEnum", "contents": "EnumRegValue \\$${1:user_var} ${2:root_key} \"${3:subkey}\" ${4:index}" },
