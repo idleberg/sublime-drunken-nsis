@@ -8,7 +8,7 @@ This might or might not be a good idea to improve your NSIS skills. Using this p
 
 ### Prince Versions
 
-Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between **`BringToFront`**/`Bring2Front` or **`goto`**/`go2`.
+Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between **`BringToFront`**/`Bring2Front` or **`Goto`**/`Go2`.
 
 ### Word Order
 
