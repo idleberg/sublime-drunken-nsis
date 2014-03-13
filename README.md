@@ -2,17 +2,19 @@
 
 ## Description
 
-This might or might not be a good idea to improve your NSIS skills. Using this package, you will likely never memorize the syntax. But then again, using this you don't have to anymore. This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax. Furthermore, valid syntax completions are included as well.
+This might or might not be a good idea to improve your NSIS skills. Using this package, you will likely never memorize the correct syntax. But then again, using this you don't have to anymore. This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax. Furthermore, valid syntax completions are included as well.
 
 ## Aliases
 
-### Prince Versions
-
-Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between **`BringToFront`**/`Bring2Front` or **`Goto`**/`Go2`.
+All invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete to valid syntax, press again to jump between fields.
 
 ### Word Order
 
-The order of noun and verb is reversible, you can use combos such as **`FileRead`**/`ReadFile` or **`SectionSetText`**/`SetSectionText`
+The order of noun and verb is reversible, you can use combos such as `FileRead`/`ReadFile` or `SectionSetText`/`SetSectionText`
+
+### Prince Versions
+
+Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between `BringToFront`/`Bring2Front` or `Goto`/`Go2`.
 
 ## License
 
