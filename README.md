@@ -6,15 +6,15 @@ This might or might not be a good idea to improve your NSIS skills. Using this p
 
 ## Aliases
 
-All invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete to valid syntax, press again to jump between fields.
+All invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete to valid syntax.
 
 ### Word Order
 
-The order of noun and verb is reversible, you can use combos such as `FileRead`/`ReadFile` or `SectionSetText`/`SetSectionText`
+The order of noun and verb is reversible, you can use combos such as `FileRead`/`ReadFile` or `SectionSetText`/`SetSectionText`. Use `Tab` key to jump between fields.
 
 ### Prince Versions
 
-Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between `BringToFront`/`Bring2Front` or `Goto`/`Go2`.
+Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between `BringToFront`/`Bring2Front` or `Goto`/`Go2`. Again, make use of the `Tab` key.
 
 ## License
 
