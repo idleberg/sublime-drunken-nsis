@@ -24,9 +24,9 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 1. Download the files using the GitHub [.zip](https://github.com/idleberg/Drunken-NSIS/archive/master.zip) download option
 2. Unzip the files to your Sublime Text `Packages/User` directory
 
-## Aliases
+## Usage
 
-All invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete to valid syntax.
+In Sublime Text's completion tab, all invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete into valid syntax.
 
 ### Word Order
 
@@ -35,6 +35,10 @@ The order of noun and verb is reversible, you can use combos such as `FileRead`/
 ### Prince Versions
 
 Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between `BringToFront`/`Bring2Front` or `Goto`/`Go2`. Again, make use of the `Tab` key to jump between fields.
+
+### Sober NSIS
+
+A complete set of valid command completions up to NSIS 3.0a1 is included as well. For those who know their syntax right.
 
 ## License
 
