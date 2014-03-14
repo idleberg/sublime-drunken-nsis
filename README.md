@@ -24,8 +24,6 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 1. Download the files using the GitHub [.zip](https://github.com/idleberg/Drunken-NSIS/archive/master.zip) download option
 2. Unzip the files to your Sublime Text `Packages/User` directory
 
-https://github.com/idleberg/Drunken-NSIS/archive/master.zip
-
 ## Aliases
 
 All invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete to valid syntax.
