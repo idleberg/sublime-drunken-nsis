@@ -9,7 +9,7 @@ This might or might not be a good idea to improve your NSIS skills. Using this p
 ### Package Control
 
 1. Make sure you already have [Package Control](https://sublime.wbond.net/installation) installed
-2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
+2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P` on OS X)
 3. Select *Drunken NSIS* and press `Enter`
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
