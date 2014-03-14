@@ -4,6 +4,28 @@
 
 This might or might not be a good idea to improve your NSIS skills. Using this package, you will likely never memorize the correct syntax. But then again, using this you don't have to anymore. This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax. Furthermore, valid syntax completions are included as well.
 
+## Installation
+
+### Package Control
+
+1. Make sure you already have [Package Control](https://sublime.wbond.net/installation) installed
+2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
+3. Select *Drunken NSIS* and press `Enter`
+
+With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
+
+### GitHub ###
+
+1. Change to your Sublime Text `Packages/User` directory
+2. Clone repository `git clone https://github.com/idleberg/Drunken-NSIS.git`
+
+### Manual Installation ###
+
+1. Download the files using the GitHub [.zip](https://github.com/idleberg/Drunken-NSIS/archive/master.zip) download option
+2. Unzip the files to your Sublime Text `Packages/User` directory
+
+https://github.com/idleberg/Drunken-NSIS/archive/master.zip
+
 ## Aliases
 
 All invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete to valid syntax.
@@ -14,7 +36,7 @@ The order of noun and verb is reversible, you can use combos such as `FileRead`/
 
 ### Prince Versions
 
-Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between `BringToFront`/`Bring2Front` or `Goto`/`Go2`. Again, make use of the `Tab` key.
+Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between `BringToFront`/`Bring2Front` or `Goto`/`Go2`. Again, make use of the `Tab` key to jump between fields.
 
 ## License
 
