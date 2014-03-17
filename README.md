@@ -38,7 +38,7 @@ Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wi
 
 ### Sober NSIS
 
-A complete set of valid command completions up to NSIS 3.0a1 is included as well. For those that got their syntax right.
+A [complete set](http://github.com/idleberg/NSIS-Sublime-Text) of valid command completions up to [NSIS 3.0a2](http://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0a2/RELEASE.html/view) is included as well. For those that got their syntax right.
 
 ## License
 
