@@ -40,6 +40,9 @@ The order of noun and verb is reversible, you can use a variety of combinations:
 * `ReadINIStr`/`INIStrRead`
 * `SectionSetText`/`SetSectionText`
 * `LogSet`/`SetLog`
+* `FindFirst`/`FirstFind`
+* `${FindLine}`/`${LineFind}`
+* etc.
 
 Use `Tab` key to jump between fields.
 
