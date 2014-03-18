@@ -34,7 +34,14 @@ In Sublime Text's completion tab, all invalid syntax is prefixed with a `§` sym
 
 ### Word Order
 
-The order of noun and verb is reversible, you can use combos such as `FileRead`/`ReadFile` or `SectionSetText`/`SetSectionText`. Use `Tab` key to jump between fields.
+The order of noun and verb is reversible, you can use a variety of combinations:
+
+* `FileRead`/`ReadFile`
+* `ReadINIStr`/`INIStrRead`
+* `SectionSetText`/`SetSectionText`
+* `LogSet`/`SetLog`
+
+Use `Tab` key to jump between fields.
 
 ### Prince Versions
 
