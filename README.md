@@ -4,7 +4,7 @@
 
 [Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and [3.0a2](http://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0a2/RELEASE.html/view)).
 
-This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax (See [usage](#usage) for details.) Furthermore, valid syntax completions are included as well.
+This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax (see [usage](#usage) for details.) Furthermore, valid syntax completions are included as well.
 
 This might or might not be a good idea to improve your NSIS skills. Using this package, you will likely never memorize the correct syntax. But then again, using this you don't have to anymore.
 
