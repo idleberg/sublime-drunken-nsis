@@ -52,7 +52,9 @@ Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wi
 
 ### Sober NSIS
 
-A [complete set](http://github.com/idleberg/NSIS-Sublime-Text) of valid command completions up to [NSIS 3.0a2](http://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0a2/RELEASE.html/view) is included as well. For those that got their syntax right.
+A complete set of valid command completions up to [NSIS 3.0a2](http://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0a2/RELEASE.html/view) is included as well. For those that got their syntax right.
+
+__Note:__ To avoid duplicates in the completion pop-up, you should avoid mixing certain NSIS packages for Sublime Text. The *Sober NSIS* completions are the same as the ones used in the [NSIS Completions & Snippets](http://github.com/idleberg/NSIS-Sublime-Text) package!
 
 ## License
 
