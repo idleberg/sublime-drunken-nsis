@@ -20,13 +20,13 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### GitHub ###
 
-1. Change to your Sublime Text `Packages/User` directory
+1. Change to your Sublime Text `Packages` directory
 2. Clone repository `git clone https://github.com/idleberg/Drunken-NSIS.git`
 
 ### Manual Installation ###
 
 1. Download the files using the GitHub [.zip](https://github.com/idleberg/Drunken-NSIS/archive/master.zip) download option
-2. Unzip the files to your Sublime Text `Packages/User` directory
+2. Unzip the files to your Sublime Text `Packages` directory
 
 ## Usage
 
