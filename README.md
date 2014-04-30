@@ -4,7 +4,7 @@
 
 [Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and [3.0a2](http://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0a2/RELEASE.html/view)).
 
-This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax (see [usage](#usage) for details.) Furthermore, valid syntax completions are included as well.
+This package irons some of the inconsistencies of the NSIS language, allowing command aliases to be completed into valid syntax (see [usage](#usage) for details.) It is meant as an extension for the basic [NSIS Completions & Snippets](http://github.com/idleberg/NSIS-Sublime-Text) package!
 
 This might or might not be a good idea to improve your NSIS skills. Using this package, you will likely never memorize the correct syntax. But then again, using this you don't have to anymore.
 
@@ -52,9 +52,7 @@ Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wi
 
 ### Sober NSIS
 
-A complete set of valid command completions up to [NSIS 3.0a2](http://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0a2/RELEASE.html/view) is included as well. For those that got their syntax right.
-
-__Note:__ To avoid duplicates in the completion pop-up, you should avoid mixing certain NSIS packages for Sublime Text. The *Sober NSIS* completions are the same as the ones used in the [NSIS Completions & Snippets](http://github.com/idleberg/NSIS-Sublime-Text) package!
+This package *no longer* ships with “sober” completions. You can restore this functionality by installing the basic [NSIS Completions & Snippets](http://github.com/idleberg/NSIS-Sublime-Text) package.
 
 ## License
 
