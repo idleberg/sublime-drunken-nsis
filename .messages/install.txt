@@ -1,0 +1,16 @@
+Drunken NSIS is meant as an extension for “NSIS Completions & Snippets”, which
+you can install via Package Control.
+
+    “NSIS Completions & Snippets”
+    https://github.com/idleberg/NSIS-Sublime-Text
+
+You can further extend Sublime Text's support for NSIS with the following
+packages:
+
+    “NSIS”, a syntax highlighter
+    https://github.com/SublimeText/NSIS
+
+    “NSIS Plug-in Completions”, completions for third-party plug-ins
+    https://github.com/idleberg/NSIS-Sublime-Text-Addons
+
+Thanks for choosing Drunken NSIS!

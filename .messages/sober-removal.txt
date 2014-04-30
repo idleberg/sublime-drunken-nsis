@@ -1,0 +1,14 @@
+As of this version, Drunken NSIS no longer ships with “sober” completions and
+is intended as an extension of seperate NSIS packages for Sublime Text. You
+can install any of the following via Package Control.
+
+    “NSIS Completions & Snippets” (recommended)
+    https://github.com/idleberg/NSIS-Sublime-Text
+
+    “NSIS Plug-in Completions”, completions for third-party plug-ins
+    https://github.com/idleberg/NSIS-Sublime-Text-Addons
+
+    “NSIS”, a syntax highlighter
+    https://github.com/SublimeText/NSIS
+
+Sorry for the inconvenience!
