@@ -13,4 +13,7 @@ packages:
     “NSIS Plug-in Completions”, completions for third-party plug-ins
     https://github.com/idleberg/NSIS-Sublime-Text-Addons
 
+    “NSIS Language File Syntax”, for NSIS translators only
+    https://github.com/idleberg/NSIS-Language-File-Sublime-Text
+
 Thanks for choosing Drunken NSIS!
