@@ -1,6 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/idleberg/Drunken-NSIS.png)](http://travis-ci.org/idleberg/Drunken-NSIS)
-
-# Drunken NSIS for Sublime Text
+# Drunken NSIS for Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/Drunken-NSIS.png)](http://travis-ci.org/idleberg/Drunken-NSIS)
 
 ## Description
 
