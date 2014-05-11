@@ -30,7 +30,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ## Usage
 
-In Sublime Text's completion tab, all invalid syntax is prefixed with a `§` symbol. Press `Tab` to auto-complete into valid syntax.
+In Sublime Text's completion tab, all invalid syntax is prefixed with a `%` symbol (no need to type this!) Press `Tab` to auto-complete into valid syntax.
 
 ### Word Order
 
