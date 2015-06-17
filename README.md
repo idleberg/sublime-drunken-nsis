@@ -1,4 +1,8 @@
-# Drunken NSIS for Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/Drunken-NSIS.png)](http://travis-ci.org/idleberg/Drunken-NSIS)
+# Drunken NSIS for Sublime Text
+
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/idleberg/Drunken-NSIS.svg?style=flat-square)](https://github.com/idleberg/Drunken-NSIS/releases)
+[![Travis](https://img.shields.io/travis/idleberg/Drunken-NSIS.svg?style=flat-square)](https://travis-ci.org/idleberg/Drunken-NSIS)
 
 ## Description
 
