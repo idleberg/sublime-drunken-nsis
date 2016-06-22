@@ -2,8 +2,8 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Drunken%20NSIS.svg?style=flat-square)](https://packagecontrol.io/packages/Drunken%20NSIS)
-[![GitHub release](https://img.shields.io/github/release/idleberg/Drunken-NSIS.svg?style=flat-square)](https://github.com/idleberg/Drunken-NSIS/releases)
-[![Travis](https://img.shields.io/travis/idleberg/Drunken-NSIS.svg?style=flat-square)](https://travis-ci.org/idleberg/Drunken-NSIS)
+[![GitHub release](https://img.shields.io/github/release/idleberg/sublime-drunken-nsis.svg?style=flat-square)](https://github.com/idleberg/sublime-drunken-nsis/releases)
+[![Travis](https://img.shields.io/travis/idleberg/sublime-drunken-nsis.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-drunken-nsis)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
 ## Description
@@ -27,11 +27,11 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 ### GitHub
 
 1. Change to your Sublime Text `Packages` directory
-2. Clone repository `git clone https://github.com/idleberg/Drunken-NSIS.git 'Drunken NSIS'`
+2. Clone repository `git clone https://github.com/idleberg/sublime-drunken-nsis.git 'Drunken NSIS'`
 
 ### Manual installation
 
-1. Download the latest [stable release](https://github.com/idleberg/Drunken-NSIS/releases)
+1. Download the latest [stable release](https://github.com/idleberg/sublime-drunken-nsis/releases)
 2. Unzip the archive to your Sublime Text `Packages` directory
 
 ## Usage
@@ -66,4 +66,4 @@ This work is licensed under the [The MIT License](LICENSE).
 
 ## Donate
 
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/Drunken-NSIS) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/sublime-drunken-nsis) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
