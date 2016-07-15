@@ -260,6 +260,11 @@
                 { "trigger": "%{UnlessElse}", "contents": "\\${ElseUnless} ${1:condition}" },
                 { "trigger": "%{WhileEnd}", "contents": "\\${ExitWhile}" },
                 { "trigger": "%{WhileExit}", "contents": "\\${ExitWhile}" },
+                
+                { "#": "Deprecated" },
+                { "trigger": "%SubSection", "contents": "SectionGroup ${1:section_group_name} ${2:index_output}\n\t${3:# your code here}\nSectionGroupEnd" },
+                { "trigger": "%SubSectionEnd", "contents": "SectionGroupEnd" },
+                { "trigger": "%{IsServer}", "contents": "\\${IsServerOS}" },
 
                 { "note": "It ain't over 'til the fat lady sings" }
         ]
