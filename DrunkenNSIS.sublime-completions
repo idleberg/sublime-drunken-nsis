@@ -171,7 +171,7 @@
                 { "trigger": "%SupportedOSManifest WinVista", "contents": "ManifestSupportedOS WinVista" },
                 { "trigger": "%SupportedOSManifest", "contents": "ManifestSupportedOS ${1:none|all|WinVista|Win7|Win8|{GUID}}" },
                 { "trigger": "%TextCompleted", "contents": "CompletedText \"${1:text}\"" },
-                { "trigger": "%TextCompleted", "contents": "ComponentText \"${1:text}\" \"${2:[subtext]}\" \"${3:[subtext2]}\"" },
+                { "trigger": "%TextComponent", "contents": "ComponentText \"${1:text}\" \"${2:[subtext]}\" \"${3:[subtext2]}\"" },
                 { "trigger": "%TextDetailsButton", "contents": "DetailsButtonText \"${1:text}\" " },
                 { "trigger": "%TextDir", "contents": "DirText \"${1:[text]}\" \"${2:[subtext]}\" \"${3:[browse_button_text]}\" \"${4:[browse_dlg_text]}\"" },
                 { "trigger": "%TextLicense", "contents": "LicenseText \"${1:text}\" \"${2:button_text}\"" },
