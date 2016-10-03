@@ -4,7 +4,7 @@
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Drunken%20NSIS.svg?style=flat-square)](https://packagecontrol.io/packages/Drunken%20NSIS)
 [![GitHub release](https://img.shields.io/github/release/idleberg/sublime-drunken-nsis.svg?style=flat-square)](https://github.com/idleberg/sublime-drunken-nsis/releases)
 [![Travis](https://img.shields.io/travis/idleberg/sublime-drunken-nsis.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-drunken-nsis)
-[![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
+[![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
 ## Description
 
