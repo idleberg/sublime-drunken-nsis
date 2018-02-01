@@ -2,7 +2,7 @@
         "scope": "source.nsis",
 
         "completions":
-        [  
+        [
                 { "#": "Commands" },
                 { "trigger": "%BitmapCheck", "contents": "CheckBitmap \"${1:bitmap}.bmp\"" },
                 { "trigger": "%BitmapCheck:big.bmp", "contents": "CheckBitmap \"\\${NSISDIR}\\Contrib\\Graphics\\Checks\\big.bmp\"" },
@@ -33,6 +33,8 @@
                 { "trigger": "%CloseFile", "contents": "FileClose \\$${1:handle}" },
                 { "trigger": "%CloseFind", "contents": "FindClose \\$${1:handle}" },
                 { "trigger": "%CmpInt", "contents": "IntCmp ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
+                { "trigger": "%CmpInt64", "contents": "Int64Cmp ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
+                { "trigger": "%CmpIntU64", "contents": "Int64CmpU ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
                 { "trigger": "%CmpSStr", "contents": "StrCmpS ${1:str1} ${2:str2} ${3:jump_if_equal} ${4:[jump_if_not_equal]}" },
                 { "trigger": "%CmpStr", "contents": "StrCmp ${1:str1} ${2:str2} ${3:jump_if_equal} ${4:[jump_if_not_equal]}" },
                 { "trigger": "%CmpUInt", "contents": "IntCmpU ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
@@ -67,6 +69,7 @@
                 { "trigger": "%FileReserve", "contents": "ReserveFile \"${1:file}\"" },
                 { "trigger": "%FirstFind", "contents": "FindFirst \\$${1:handle} \\$${2:user_var} \"${3:filespec}\"" },
                 { "trigger": "%FmtInt", "contents": "IntFmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"" },
+                { "trigger": "%FmtInt64", "contents": "Int64Fmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"" },
                 { "trigger": "%FontCreate", "contents": "CreateFont \\$${1:user_var} \"${2:face_name}\" ${3:[height] [weight]}" },
                 { "trigger": "%ForceSelectionLicense checkbox", "contents": "LicenseForceSelection checkbox \"${2:accept_text}\"" },
                 { "trigger": "%ForceSelectionLicense off (default)", "contents": "LicenseForceSelection off \"${2:accept_text}\" \"${3:decline_text}\"" },
@@ -111,6 +114,9 @@
                 { "trigger": "%InstDetailsShow nevershow", "contents": "ShowInstDetails nevershow" },
                 { "trigger": "%InstDetailsShow show", "contents": "ShowInstDetails show" },
                 { "trigger": "%InstDetailsShow", "contents": "ShowInstDetails hide|show|nevershow" },
+                { "trigger": "%IntCmp64", "contents": "Int64Cmp ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
+                { "trigger": "%IntCmpU64", "contents": "Int64CmpU ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
+                { "trigger": "%IntFmt64", "contents": "Int64Fmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"" },
                 { "trigger": "%LangStringLicense rtf", "contents": "LicenseLangString ${1:name} \\${LANG_${2:ENGLISH}\\} \"${3:license_path}.rtf\"" },
                 { "trigger": "%LangStringLicense txt", "contents": "LicenseLangString ${1:name} \\${LANG_${2:ENGLISH}\\} \"${3:license_path}.txt\"" },
                 { "trigger": "%LangStringLicense", "contents": "LicenseLangString ${1:name} \\${LANG_${2:ENGLISH}\\} \"${3:license_path}\"" },
@@ -144,6 +150,8 @@
                 { "trigger": "%RegKeyDelete /ifempty", "contents": "DeleteRegKey /ifempty ${1:root_key} \"${2:subkey}\"" },
                 { "trigger": "%RegKeyDelete", "contents": "DeleteRegKey ${1:root_key} \"${2:subkey}\"" },
                 { "trigger": "%RegKeyEnum", "contents": "EnumRegKey \\$${1:user_var} ${2:root_key} \"${3:subkey}\" ${4:index}" },
+                { "trigger": "%RegMultiStrWrite", "contents": "WriteRegMultiStr /REGEDIT5 ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
+                { "trigger": "%RegNoneWrite", "contents": "WriteRegNone ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:entry_name}\"${5: ${6:hex_data}}" },
                 { "trigger": "%RegStrRead", "contents": "ReadRegStr \\$${1:user_var} ${2:root_key} \"${3:sub_key}\" \"${4:name}\"" },
                 { "trigger": "%RegStrWrite", "contents": "WriteRegStr ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
                 { "trigger": "%RegValueDelete", "contents": "DeleteRegValue ${1:root_key} \"${2:subkey}\" \"${3:key_name}\"" },
@@ -261,7 +269,7 @@
                 { "trigger": "%{UnlessElse}", "contents": "\\${ElseUnless} ${1:condition}" },
                 { "trigger": "%{WhileEnd}", "contents": "\\${ExitWhile}" },
                 { "trigger": "%{WhileExit}", "contents": "\\${ExitWhile}" },
-                
+
                 { "#": "Deprecated" },
                 { "trigger": "%SubSection", "contents": "SectionGroup ${1:section_group_name} ${2:index_output}\n\t${3:# your code here}\nSectionGroupEnd" },
                 { "trigger": "%SubSectionEnd", "contents": "SectionGroupEnd" },
