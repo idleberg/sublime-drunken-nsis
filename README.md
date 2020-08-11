@@ -63,7 +63,3 @@ This package *no longer* ships with “sober” completions. You can restore thi
 ## License
 
 This work is licensed under the [The MIT License](LICENSE).
-
-## Donate
-
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/sublime-drunken-nsis) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
